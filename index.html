@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Management System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Employee Management System</h1>
+    <form id="employeeForm"  >
+        <label for="name">Name:</label>
+        <input type="text" id="name" required>
+        <label for="address">Address:</label>
+        <input type="text" id="address" required>
+        <label for="employeeId">Employee ID:</label>
+        <input type="text" id="employeeId" required>
+        <label for="designation">Designation:</label>
+        <input type="text" id="designation" required>
+        <button type="button" id="addEmployeeButton" onclick="addEmployee()">Add Employee</button>
+        <button type="button" id="saveEditButton"  class="save-edit-button" onclick="saveEdit()">Save Edit</button>
+    </form>
+    <div id="employeeList">
+        <h2>Employee Details</h2>
+        <table>
+            <thead>
+              <tr>
+                <th>Name</th>
+                <th>Address</th>
+                <th>Employee ID</th>
+                <th>Designation</th>
+                <th>Action</th>
+              </tr>
+            </thead>
+            <tbody id="employeeDetails"></tbody>
+          </table>
+    </div>
+    <script src="script.js">
+    </script>
+</body>
+</html>

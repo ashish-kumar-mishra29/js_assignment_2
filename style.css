@@ -1,0 +1,101 @@
+body,h1,table {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 50%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    display: block;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#employeeList {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    padding: 20px;
+}
+
+h2 {
+    margin-top: 0;
+    color: #333;
+}
+
+li {
+    margin-bottom: 15px;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    background-color: #f9f9f9;
+    overflow: hidden;
+}
+  /* Style for the table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+  
+  /* Style for table cells */
+td, th {
+    border: 1px solid #dddddd;
+    padding: 8px;
+    text-align: left;
+}
+  
+  /* Style for table header */
+thead {
+    background-color: #000000;
+    color: #f4f4f4;
+}
+
+.detail-label {
+    font-weight: bold;
+    margin-bottom: 5px; 
+}
+
+.detail-value {
+    margin-bottom: 10px;
+}
+
+.edit-button {
+    background-color: #28a745;
+}
+
+#saveEditButton {
+    background-color: #ffc107;
+    display: none;
+}
